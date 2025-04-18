@@ -1,0 +1,13 @@
+Real-Time-Monitoring-Dashboard/
+│── app.ipynb                 # Main application file (Dashboard logic & callbacks)
+│── requirements.txt        # List of dependencies for installation
+│── README.md               # Project documentation
+│
+├── assets/                 # Contains additional assets (CSS, JS, images if needed)
+│   ├── styles.css          # Custom CSS for styling (optional)
+│
+├── data/                   # (Optional) Store logs or processed data
+│   ├── process_logs.csv    # CSV file for storing process data (if implemented)
+│
+├── utils/                  # Helper functions (if needed)
+│   ├── monitoring.py       # Separate logic for CPU, memory, and process monitoring
